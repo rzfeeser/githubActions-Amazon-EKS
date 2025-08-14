@@ -2,7 +2,7 @@
   "name": "aws_pipeline_web_app",
   "version": "1.0.0",
   "description": "Node.js on Docker",
-  "author": "Ivan Polovyi <polovyiivan@gmail.com>",
+  "author": "rzfeeser <r@iris7.com>",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
