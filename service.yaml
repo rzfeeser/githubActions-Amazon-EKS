@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: EKStesting
+spec:
+  selector:
+    app: EKStesting
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  type: LoadBalancer
