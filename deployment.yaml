@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: EKSTesting
+  name: ekstesting
   labels:
-    app: EKSTesting
+    app: ekstesting
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: EKSTesting
+      app: ekstesting
   template:
     metadata:
       labels:
-        app: EKSTesting
+        app: ekstesting
     spec:
       containers:
-        - name: EKSTesting
-          image: XXXXXXXX.dkr.ecr.us-east-2.amazonaws.com/EKSTesting:latest
+        - name: ekstesting
+          image: XXXXXXXX.dkr.ecr.us-east-2.amazonaws.com/ekstesting:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
