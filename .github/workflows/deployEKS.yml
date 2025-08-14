@@ -1,5 +1,6 @@
 name: Node js app deploy to EKS
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
   pull_request:
